@@ -4,7 +4,7 @@
     "jquery": true
   },
   "extends": "eslint:recommended",
-  "rules": {
+  "rules": { 
     "indent": [
       "error",
       2,
@@ -28,6 +28,9 @@
     "no-console": [
       "error",
       { "allow": ["error"] }
-    ]
+    ],
+    "no-unused-vars": 0,
+    "no-undef":0
   }
 }
+
