@@ -1,19 +1,9 @@
 {
   "name": "spa",
   "version": "1.0.0",
-  "description": "SPA RIA web application develop",
-  "scripts": {
-    "test": "grunt lint",
-    "build": "grunt build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tianyuanfang/spa.git"
-  },
-  "author": "tianyuanfang",
-  "bugs": {
-    "url": "https://github.com/tianyuanfang/spa/issues"
-  },
+  "description": "",
+  "main": "Gruntfile.js",
+  "dependencies": {},
   "devDependencies": {
     "grunt": "^1.0.3",
     "grunt-contrib-copy": "^1.0.0",
@@ -24,5 +14,15 @@
     "grunt-contrib-uglify": "^3.3.0",
     "grunt-eslint": "^21.0.0",
     "grunt-htmlhint": "^0.9.13"
-  }
+  },
+  "scripts": {
+    "test": "grunt lint",
+    "build": "grunt build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tianyuanfang/spa.git"
+  },
+  "author": "tianyuanfang",
+  "license": "ISC"
 }
