@@ -7,14 +7,14 @@ module.exports = function (grunt) {
       },
       files: {
         expand: true,
-        src: ['*.html', '[0-1]?-*/*.html'],
+        src: ['*.html', '[0-9]?-*/*.html'],
         dest: 'dist/'
       }
     },
     cssmin: {
       files: {   
         expand: true,
-        src: ['[0-1]?-*/*.css'],
+        src: ['[0-9]?-*/*.css'],
         dest: 'dist/'
       }
     },
@@ -22,7 +22,7 @@ module.exports = function (grunt) {
       main: {
         files: [{
           expand: true,
-          src: ['[0-1]?-*/*.js'],
+          src: ['[0-9]?-*/*.js'],
           dest: 'dist/'
         }]
       }
@@ -31,13 +31,13 @@ module.exports = function (grunt) {
       options: {
         csslintrc: '.csslintrc'
       },
-      src: ['[0-1]?-*/*.css']
+      src: ['[0-9]?-*/*.css']
     },
     htmlhint: {
       options: {
         htmlhintrc: '.htmlhintrc'
       },
-      src: ['*.html', '[0-1]?-*/*.html']
+      src: ['*.html', '[0-9]?-*/*.html']
     },
     eslint: {
       options: {
