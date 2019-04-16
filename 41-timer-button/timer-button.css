@@ -23,10 +23,7 @@ details form {
 }
 
 details input, label, textarea {
-  margin-top: 10px;
-  margin-right: 10px;
-  margin-left: 0px;
-  margin-bottom: 0px;
+  margin:10px 10px 0 0;
 }
 
 details input[type="number"] {
@@ -42,8 +39,8 @@ details textarea {
 }
 
 form div {
-  padding-left: 0px;
-  padding-bottom: 0px;
+  padding-left: 0;
+  padding-bottom: 0;
   display: flex;
   item-align: flex-start;
 }
